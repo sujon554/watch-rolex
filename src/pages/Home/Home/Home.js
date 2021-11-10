@@ -1,14 +1,13 @@
 import React from 'react';
-import Body from '../Body/Body';
-import Header from '../Header/Header';
-// import Navbar from '../Header/Navbar';
+import Blog from '../Blog/Blog';
+
+import Slider from '../Slider/Slider';
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
-            {/* <Navbar></Navbar> */}
-            <Body></Body>
+            <Slider></Slider>
+           <Blog></Blog>
         </div>
     );
 };
